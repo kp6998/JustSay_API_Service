@@ -1,0 +1,191 @@
+﻿body {
+    margin: 10px;
+    padding-top: 0 !important;
+}
+
+.bodydiv {
+    text-align: -webkit-center;
+}
+
+
+.navbaropt {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    height: auto;
+    overflow: auto;
+    width: 100%;
+    background: white;
+}
+
+    .navbaropt li a {
+        display: block;
+        color: #000;
+        float: left;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+        .navbaropt li a.active {
+            background-color: #333333;
+            color: white;
+        }
+
+        .navbaropt li a:hover:not(.active) {
+            background-color: #0000006b;
+            color: white;
+        }
+
+.navdiv {
+    height: 45px;
+}
+
+.notificationsbtn {
+    display: none !important;
+}
+
+.logout {
+    float: right;
+}
+
+.row {
+    height: 100%;
+}
+
+.topicsdiv {
+}
+
+.topics {
+    height: 100%;
+    background: #b5b5b5;
+    padding-top: 10px;
+    position: fixed;
+    width: 23%;
+    margin-left: 5px;
+}
+
+.postdiv {
+    background: #b5b5b5;
+    padding-top: 10px;
+}
+
+.post {
+    height: 100%;
+    padding-top: 10px;
+    display: contents;
+}
+
+.notifications {
+    height: 100%;
+    background: #b5b5b5;
+    padding-top: 10px;
+    position: fixed;
+    width: 23%;
+    margin-left: 5px;
+}
+
+form {
+    border-color: black;
+    border-style: solid;
+    background: #fff;
+}
+
+.userinfo {
+    text-align: left;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+.content {
+    text-align: left;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: thin;
+}
+
+.uservoice {
+    display: inline;
+}
+
+.username {
+    display: inline;
+}
+
+.dateandtime {
+    display: inline;
+}
+
+.pinandreply {
+}
+
+.pinbtndiv {
+    display: inline;
+}
+
+.replybtndiv {
+    display: inline;
+}
+
+.pinbtn {
+    width: 50%;
+    float: left;
+}
+
+.replybtn {
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+    }
+
+    .navdiv {
+        height: auto;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: block;
+        transition: top 0.3s;
+    }
+
+    .dummynavdiv {
+        height: 220px;
+    }
+
+    .navbaropt {
+        position: relative;
+    }
+
+        .navbaropt li a {
+            text-align: center;
+            float: none;
+        }
+
+    .notificationsbtn {
+        display: block !important;
+    }
+
+    .logout {
+        float: none;
+    }
+
+    .postdiv {
+        width: 100% !important;
+    }
+
+    .topicsdiv {
+        display: none;
+    }
+
+    .notificationsdiv {
+        display: none;
+    }
+
+    form {
+        width: 75%;
+    }
+}

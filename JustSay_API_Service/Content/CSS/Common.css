@@ -1,0 +1,49 @@
+﻿/*body {
+}
+
+form {
+    text-align: -webkit-center;
+}
+
+.text_allign {
+    text-align: center;
+}
+
+.form_control {
+    border-color: black;
+    border-style: solid;
+    width: 50%;
+    margin: 2%;
+    border-width: 1px;
+    background: whitesmoke;
+    border-radius: 15px;
+}
+    .form_control :focus-visible {
+        outline: 0px;
+        border-radius: 15px;
+        box-shadow: 0 0 3pt 2pt cornflowerblue;
+    }
+
+    .form_control input[type="text"] {
+        width: 100%;
+        text-align: center;
+        border: none;
+        background-color: transparent!important;
+    }
+
+    .form_control label {
+        margin-bottom: 2px!important;
+    }
+
+@media (min-width: 992px){
+    .form_control {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 992px) {
+    .radio_control {
+        text-align: left;
+        padding-left: 10%;
+    }
+}*/

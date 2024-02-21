@@ -1,0 +1,119 @@
+﻿body {
+    background-image: url('../Images/loginpage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url('../Images/loginpage-crop.jpg');
+    }
+}
+
+.quotes {
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+    padding-top: 10px;
+    background: rgb(0 0 0 / 10%);
+}
+
+.col-md-6 {
+    text-align: -webkit-center;
+}
+
+.box {
+    background-color: rgb(0 0 0 / 51%);
+    width: 60%;
+    height: auto;
+    margin-top: 25%;
+    padding: 10px;
+    -webkit-text-stroke: thin;
+    border-radius: 60px;
+    text-align: -webkit-center;
+    border: inset;
+    text-align-last: center;
+}
+
+.box1 {
+}
+
+.box2 {
+    margin-top: 35%;
+}
+
+.box_heading {
+    font-size: x-large;
+}
+
+.mobile_no {
+    padding: 10px;
+}
+
+.gender {
+    padding: 10px;
+    color: white;
+}
+
+.DOB {
+    padding: 10px;
+}
+
+.submit {
+    padding: 10px;
+}
+
+.login {
+    padding: 7px;
+}
+
+label {
+    color: white;
+}
+
+.mobile_no-input {
+    background-color: #ffffffab;
+    border-color: steelblue;
+    width: 75%;
+    border-radius: 50px;
+}
+
+    .mobile_no-input:hover {
+        border-color: blue;
+    }
+
+    .mobile_no-input:focus {
+        background-color: white;
+    }
+
+.DOB-input {
+    background-color: #ffffffab;
+    border-color: steelblue;
+    width: 65%;
+    border-radius: 50px;
+}
+
+    .DOB-input:hover {
+        border-color: blue;
+    }
+
+    .DOB-input:focus {
+        background-color: white;
+    }
+
+.submit-input {
+    border-radius: 5px;
+}
+
+    .submit-input:hover {
+        background-color: white;
+    }
+
+.login-input {
+    border-radius: 5px;
+}
+
+    .login-input:hover {
+        background-color: white;
+    }

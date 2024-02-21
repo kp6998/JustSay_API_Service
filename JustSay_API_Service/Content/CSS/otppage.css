@@ -1,0 +1,24 @@
+﻿body {
+}
+
+.box {
+    width: 40%;
+    height: auto;
+    background-color: gray;
+    margin-top: 15%;
+    margin-left: 30%;
+}
+
+.otp {
+    padding: 10px;
+    text-align-last: center;
+}
+
+.otp_inputs {
+    width: 20%;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: x-large;
+}
